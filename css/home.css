@@ -1,0 +1,117 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Inter;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(92, 94, 94);
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.248);
+}
+
+header .subnav {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+header .navbar {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+header .navbar a ul {
+    display: flex;
+    list-style: none;
+    margin-left: 25px;
+    padding: 0;
+}
+
+header .navbar  p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #ffffff;
+    font-family: "Helvetica Neue";
+
+}
+
+header .navbar li {
+    margin-right: 10px;
+}
+
+header .navbar2 {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+
+}
+
+header .navbar2 img {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: 0;
+}
+
+section div.background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+section div.background video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+section div.box{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    background:linear-gradient(to right, rgba(0,0,0,0.9), transparent);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 2%;
+}
+
+section div.box div.content{
+    width: 100%;
+    min-width: 300px;
+}
+
+section div.box img{
+    width: 50%;
+    min-width: 300px;
+}
+
+section div.box p{
+    color: white ; 
+    font-size: 24px;
+    line-height: 32px;   
+}
