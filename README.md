@@ -16,7 +16,7 @@ Esse é um projeto Web Responsivo que eu fiz para treinar mais sobre as linguage
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido durante a NLW da Rocketseat com as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
