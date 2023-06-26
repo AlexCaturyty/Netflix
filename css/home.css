@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    position: absolute;
+    position:fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -27,6 +27,7 @@ header {
     justify-content: space-between;
     width: 100%;
     background: linear-gradient(to , rgba(0, 0, 0, 0.9), transparent);
+    transition: background-color 0.5s ease;
 }
 
 .subnav {
@@ -273,8 +274,11 @@ main img {
 /* Responsivo */
 
 @media only screen and (max-width: 768px) {
+    
+
     header .navbar {
         display: none;
+        
     }
 
     header .navbar2 {
@@ -286,7 +290,7 @@ main img {
     }
 
     section .box {
-        width: 100%;
+        width: auto;
     }
 
     section .box img {
@@ -309,4 +313,5 @@ main img {
         width: 100%;
         grid-template-columns: 1fr 1fr;
     }
+
 }
